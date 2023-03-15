@@ -58,11 +58,11 @@
 <section>
   <div>
     <ul class="about_ul">
-        <li><a href=<?php href='http://localhost/php/about.php/nom=hd'>¿Como me inspire para hacer la pagina?</a></li>
+        <li><a href='<?= http://localhost/php/about.php/?nom=hd?>'>¿Como me inspire para hacer la pagina?</a></li>
 
-        <li><a href=<?php href='http://localhost/php/about.php/nom=hp'>¿Cuanto tiempo tarde en hacer la pagina?</a></li>
+        <li><a href='<?= http://localhost/php/about.php/?nom=hp?>'>¿Cuanto tiempo tarde en hacer la pagina?</a></li>
 
-        <li><a href=<?php href='http://localhost/php/about.php/nom=hg'>¿Quienes me ayudaron a hacer la pagina?</a></li>
+        <li><a href='<?= http://localhost/php/about.php/?nom=hg?>'>¿Quienes me ayudaron a hacer la pagina?</a></li>
     </ul>
   </div>
 

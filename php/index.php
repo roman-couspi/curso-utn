@@ -8,10 +8,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
-  <?php 
-  define("CSS_PATH", 'http://localhost/php/css/');
+  <?php
+  define("CSS_PATH", 'http://localhost/curso-utn/php/css/');
   ?>
-  <link rel="stylesheet" href ="<?=CSS_PATH?>style.css">
+  <link rel="stylesheet" href="<?= CSS_PATH ?>style.css">
 </head>
 
 <body>
@@ -25,28 +25,28 @@
 
     <nav>
       <div class="parte1">
-          <div class="dropdown" id="dropdown">
-            <span class="features" id="features">Features</span>
-            <img src="images/icon-arrow-up.svg" alt="" class="flechita" id="flechita">
-              <ul class="visi" id="visi">
-                <li><a href="#">Todo list</a></li>
-                <li><a href="#">Calendar</a></li>
-                <li><a href="#">Reminders</a></li>
-                <li><a href="#">Planning</a></li>
-              </ul>
-          </div>
-          <div class="dropdown" id="dropdown2">
-            <span class="company" id="company">Company</span>
-            <img src="images/icon-arrow-up.svg" alt="" class="flechita" id="flechita2">
-             <ul class="visi" id="visi2">
-               <li>History</li>
-               <li>Our Team</li>
-               <li>Blog</li>
-             </ul>
-          </div>
+        <div class="dropdown" id="dropdown">
+          <span class="features" id="features">Features</span>
+          <img src="images/icon-arrow-up.svg" alt="" class="flechita" id="flechita">
+          <ul class="visi" id="visi">
+            <li><a href="#">Todo list</a></li>
+            <li><a href="#">Calendar</a></li>
+            <li><a href="#">Reminders</a></li>
+            <li><a href="#">Planning</a></li>
+          </ul>
+        </div>
+        <div class="dropdown" id="dropdown2">
+          <span class="company" id="company">Company</span>
+          <img src="images/icon-arrow-up.svg" alt="" class="flechita" id="flechita2">
+          <ul class="visi" id="visi2">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </ul>
+        </div>
 
-          <a href="#" title="Careers">Careers</a>
-          <a href="about.php" title="About">About</a>
+        <a href="#" title="Careers">Careers</a>
+        <a href="about.php" title="About">About</a>
       </div>
 
       <div class="parte2">

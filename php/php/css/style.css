@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bars{
+    display: none;
+}
+
+.divlogos{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 5rem;
+    width: 7rem;
+    margin: 2rem 0 0 2rem;
+}
+
+.puntitos{
+    height: 2rem;
+    width: 3rem;
+    margin: 3rem 2rem  ;
+}
+
+.imagen_principal{
+    width: 375px;
+}
+
+.titulo{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.texto{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.enlace{
+    display: block;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem ;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+.clientes{
+    width: 5rem;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.parte1{
+    display: none;
+}
+
+.parte2{
+    display: none;
+}
+
+.img_escritorio{
+    display: none;
+}
+
+#br{
+    display: none;
+}
+
+@media screen and (min-width: 600px){
+
+    .puntitos{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+    .parte1 {
+        display: flex;
+        margin-left: 2rem;
+    }
+
+    ul{
+        display: flex;
+    }
+
+    li{
+        margin-right: 2rem;
+        list-style: none;
+    }
+
+    .divlogos{
+        width: 10rem;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 55% 45%;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "titulo foto";
+        margin-top: 3rem;
+    }
+
+    .img_principal{
+        grid-area: foto;
+    }
+
+    .imagen_principal{
+        display: none;
+    }
+
+    .img_escritorio{
+        display: block;
+        height: 25rem;
+        width: 90%;
+        object-fit: contain;
+    }
+
+    .titulo{
+        font-size: 4rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: start;
+        margin-top: 2rem;
+    }
+
+    .titulodiv{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .texto{
+        font-size: 1.4rem;
+        text-align: start;
+    }
+
+    #br{
+        display: block;
+    }
+
+    .parte2 {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .parte2 a{
+        font-size: 1.3rem;
+        margin-right: 3rem;
+        cursor: pointer;
+    }
+
+    .textodiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto{
+        width: 48%;
+    }
+
+    .enla{
+        display: flex;
+        width: 45%;
+        margin: 1rem 7rem;
+    }
+
+    .enlace{
+        text-align: center;
+    }
+
+    .clients{
+        text-align: center;
+    }
+
+    .clientes{
+        width: 5.5rem;
+    }
+
+    .reg{
+        border-radius: 14px;
+        border: 1.2px solid black;
+        padding: 0.5rem;
+    }
+
+    .log{
+        text-align: center;
+    }
+
+    .logo{
+        height: 2rem;
+        width: 4rem;
+    }
+/*js*/
+    scale{
+        height: 100px;
+    }
+
+    .rotate{
+        transform: rotate(180deg);
+    }
+
+    .visi{
+        visibility: hidden;
+    }
+
+    .visibilidad{
+        visibility: visible;
+    }
+    
+    .flechita{
+        transition: .5;
+        height: .4rem;
+    }
+
+    span{
+        cursor: pointer;
+    }
+
+    .about{
+        cursor: pointer;
+    }
+}

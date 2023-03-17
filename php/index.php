@@ -4,24 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
   <?php
-  define("CSS_PATH", 'http://localhost/curso-utn/php/css/');
+  define("CSS_PATH", 'http://localhost/php/css/');
   ?>
   <link rel="stylesheet" href="<?= CSS_PATH ?>style.css">
+  
 </head>
 
 <body>
   <header>
-
-    <div class="divlogos">
-      <img src="images/logo.svg" alt="" class="logo">
-      <img src="images/icon-menu.svg" alt="" class="puntitos">
-    </div>
-
 
     <nav>
       <div class="parte1">
@@ -39,19 +32,18 @@
           <span class="company" id="company">Company</span>
           <img src="images/icon-arrow-up.svg" alt="" class="flechita" id="flechita2">
           <ul class="visi" id="visi2">
-            <li>History</li>
-            <li>Our Team</li>
-            <li>Blog</li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blog</a></li>
           </ul>
         </div>
 
         <a href="#" title="Careers">Careers</a>
-        <a href="about.php" title="About">About</a>
-      </div>
+        <a href="about.php" title="About" class="nav_about">About</a>
 
-      <div class="parte2">
         <a href="#" class="log" title="login">login</a>
-        <a href="#" class="reg" title="register">register</a>
+        <a href="formulario.php" class="reg" title="register">register</a>
+
       </div>
 
     </nav>
@@ -62,14 +54,13 @@
 
     <div class="img_principal">
       <img src="images/image-hero-mobile.png" alt="" class="imagen_principal">
-      <img src="images/image-hero-desktop.png" alt="" class="img_escritorio">
     </div>
 
     <section>
       <article>
 
         <div class="titulodiv">
-          <h1 class="titulo">Make <br id="br"> remote work</h1>
+          <h1 class="titulo">Make remote work</h1>
         </div>
 
         <div class="textodiv">
